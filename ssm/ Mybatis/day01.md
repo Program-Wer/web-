@@ -24,7 +24,7 @@
             <!--数据库依赖，必需-->
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
+            <version>8.0.12</version>
         </dependency>
         <dependency>
             <!--日志依赖-->
