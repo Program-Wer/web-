@@ -98,12 +98,12 @@ public interface IUserDao {
         <!--配置mysql环境-->
         <environment id="mysql">
             <!--配置事务的类型-->
-            <transactionManager type="JDBC"></transactionManager>
+            <transactionManager type="JDBC"/>
             <!--配置数据源（连接池）-->
             <dataSource type="POOLED">
                 <!--配置连接数据库的四个基本信息-->
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql//localhost:8081/mybatis"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?&amp;useSSL=false&amp;serverTimezone=UTC"/>
                 <property name="username" value="root"/>
                 <property name="password" value="000413"/>
             </dataSource>
