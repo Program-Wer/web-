@@ -22,4 +22,5 @@ Spring 对 JavaEE API（如 JDBC、JavaMail、远程调用等）进行了薄薄�
 * **Java 源码是经典学习范例**  
 Spring 的源代码设计精妙、结构清晰、匠心独用，处处体现着大师对 Java 设计模式灵活运用以
 及对 Java 技术的高深造诣。它的源代码无意是 Java 技术的最佳实践的范例。
-## Spring的体系结构
+## Spring的体系结构  
+![体系结构](https://github.com/Program-Wer/web-frame/blob/master/ssm/Spring/images/1.png)
